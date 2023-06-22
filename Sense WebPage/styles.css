@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+* {
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+ }
+
+.titulo {
+  font-size: 40px;
+  color: #00586e;
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 17px;
+  color: #000000;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #00586e;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  padding: 5%;
+  margin-left: 35px;
+  height: 55px;
+}
+
+.links li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 95px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #00586e;
+  border-radius: 2em;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  background-color: #ffffff;
+  color: #00586e
+}
+
+.inicio{
+  margin-top: 0px;
+}
+
+
+.parallax {
+  background-image: url("img/img2.jpg");
+  max-width:100%;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.serviços{
+
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.topic-list {
+  background-image: linear-gradient(#63aebb, #00586e);
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  list-style-type: symbols();
+  font-weight: bold;
+  white-space:pre-line;
+
+}
+
+.topic {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.planos{
+  margin-top: 25%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: center;
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 800px;
+}
+
+.box1 {
+  background-color: #f4c05f;
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 6px #ce9203;
+  border-radius: 1em;
+  margin: 25px;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  background-color: #50C878;
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 5px 6px #007a2a;
+  border-radius: 1em;
+  margin: 25px;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  background-color: #39a6b0;
+  border: 1px solid #000000;
+  box-shadow: 5px 6px #00586e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 1em;
+  margin: 25px;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-box {
+  font-size: 30px;
+  margin-bottom: auto;
+}
+
+.box-list {
+  list-style-type: none;
+  padding: 40px;
+}
+
+.box-list li {
+  font-size: 25px;
+}
+
+.botao-box1 {
+  width: 200px;
+  padding: 10px 25px;
+  background-color: #ce9203;
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 2em;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.botao-box1:hover {
+  text-decoration: underline;
+  color: #ce9203;
+  background-color: #ffffff;
+
+}
+
+.botao-box2 {
+  width: 200px;
+  padding: 10px 25px;
+  background-color: #007a2a;
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 2em;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.botao-box2:hover {
+  text-decoration: underline;
+  color: #007a2a;
+  background-color: #ffffff;
+
+}
+
+
+.botao-box3 {
+  width: 200px;
+  padding: 10px 25px;
+  background-color: #00586e;
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 2em;
+  margin-top: auto;
+  text-decoration: none;
+}
+
+.botao-box3:hover {
+  text-decoration: underline;
+  color: #00586e;
+  background-color: #ffffff;
+
+}
+
+.contato {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.formulario-contato input,
+.formulario-contato textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.formulario-contato button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  background-color: #00586e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 20px;
+}
+
+.formulario-contato button:hover {
+  background-color: #0387a8
+}
+
