@@ -16,6 +16,14 @@ It gathers in a single place, `objectively`, everything that potential customers
 
 
 
+Screenshots
+-
+![Screenshot of Homepage.](https://github.com/Cesar-Verga/Sense_WebSite/blob/main/Sense%20WebPage/img/README-IMG/Screenshot_1.png)
+
+![Screenshot of Homepage.](https://github.com/Cesar-Verga/Sense_WebSite/blob/main/Sense%20WebPage/img/README-IMG/Screenshot_3.png)
+
+![Screenshot of Homepage.](https://github.com/Cesar-Verga/Sense_WebSite/blob/main/Sense%20WebPage/img/README-IMG/Screenshot_2.png)
+
 ------
 
 
