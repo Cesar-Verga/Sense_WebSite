@@ -16,6 +16,9 @@ It gathers in a single place, `objectively`, everything that potential customers
 
 
 
+------
+
+
 
 Qual é o objetivo do Projeto ?
 =========
